@@ -13,6 +13,7 @@
 		8DE30CF824CBD5F40010AA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30CF624CBD5F40010AA18 /* Main.storyboard */; };
 		8DE30CFA24CBD5F40010AA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30CF924CBD5F40010AA18 /* Assets.xcassets */; };
 		8DE30CFD24CBD5F40010AA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DE30CFB24CBD5F40010AA18 /* LaunchScreen.storyboard */; };
+		8DE30D0524CBD6120010AA18 /* Shader.metal in Sources */ = {isa = PBXBuildFile; fileRef = 8DE30D0424CBD6120010AA18 /* Shader.metal */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8DE30CF924CBD5F40010AA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8DE30CFC24CBD5F40010AA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8DE30CFE24CBD5F40010AA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DE30D0424CBD6120010AA18 /* Shader.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = Shader.metal; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				8DE30CF024CBD5F40010AA18 /* AppDelegate.swift */,
 				8DE30CF224CBD5F40010AA18 /* SceneDelegate.swift */,
 				8DE30CF424CBD5F40010AA18 /* ViewController.swift */,
+				8DE30D0424CBD6120010AA18 /* Shader.metal */,
 				8DE30CF624CBD5F40010AA18 /* Main.storyboard */,
 				8DE30CF924CBD5F40010AA18 /* Assets.xcassets */,
 				8DE30CFB24CBD5F40010AA18 /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DE30D0524CBD6120010AA18 /* Shader.metal in Sources */,
 				8DE30CF524CBD5F40010AA18 /* ViewController.swift in Sources */,
 				8DE30CF124CBD5F40010AA18 /* AppDelegate.swift in Sources */,
 				8DE30CF324CBD5F40010AA18 /* SceneDelegate.swift in Sources */,
